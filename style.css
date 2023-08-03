@@ -1,0 +1,111 @@
+.container{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+}
+.demTable tr{
+   
+ 
+}
+.header{
+    color: aliceblue;
+}
+.demTable {
+    border:9px none #b3adad;
+    border-spacing: 0px 10px;
+    padding:10px;
+    margin: 0 auto;
+}
+.demTable th {
+    border:9px none #b3adad;
+    width: 180px;
+
+    padding:10px;
+    background: #999999;
+    color: #fffdfd;
+    
+}
+.demTable td {
+    height: 100%;
+    border:9px none #b3adad;
+    text-align:center;
+    padding:8px;
+    background: #e8eaf5;
+    color: #151313;   
+}
+.pictures{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.icons{
+    position: relative;
+}
+.trash{
+    
+}
+.downl{
+   
+}
+.icons img
+{
+    opacity: 0.6
+}
+.white-icon {
+    filter: invert(100%);
+  }
+tbody tr{
+    height: auto;
+}  
+
+.name{
+ 
+    display: flex;
+    margin: auto;
+   
+}
+button {
+    position: absolute;
+    left: 34px;
+   
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    position: relative;
+}
+.name span{
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+}
+.round-icon{
+width: 40px; 
+height: 40px;   
+border-radius: 50%; 
+overflow: hidden;
+
+display: flex;
+  
+ 
+justify-content: center;
+  align-items: center;
+background-color:#616161;
+} 
+.round-icon img {
+  
+    filter: invert(100%);
+    display: block;
+      
+     
+   
+    
+    }  
+  
+  
+  
